@@ -54,14 +54,14 @@ table {
 */
 
 body {
-    background: #152AC7;
-    color: #888;
+    background: #77C9D4;
+    color: #57BC90;
     font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue",
     Helvetica, Arial, sans-serif;
 }
 
 h1, h2, h3, h4 {
-  color: #648880;
+  color: #015249;
 }
 
 h1 {
@@ -83,7 +83,7 @@ h4 {
 }
 
 h5 {
-  color: #a9b2b9;
+  color: #015249;
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
@@ -105,12 +105,12 @@ em {
 */ 
 
 a {
-  color: #648880;
+  color: #015249;
   text-decoration: none;
 }
 
 a:hover {
-  color: #a9b2b9;
+  color: white;
 }
 
 p a {
@@ -118,11 +118,11 @@ p a {
 }
 
 .teaser a:hover h3{
-  color: #a9b2b9;
+  color: #015249;
 }
 
 .logo {
-  border-top: 4px solid #648880;
+  border-top: 4px solid #015249;
   float: left;
   font-size: 48px;
   font-weight:100px;
@@ -144,6 +144,9 @@ p a {
   text-transform: uppercase;
 }
 
+.hover {
+  color: white;
+}
 
 /*
   ========================================
@@ -212,6 +215,7 @@ p a {
 
 h1, h3, h4, h5, p {
   margin-bottom: 22px;
+  color: #015249;
 }
 
 /*
@@ -247,7 +251,7 @@ h1, h3, h4, h5, p {
 */
 
 .logo {
-  border-top: 4px solid #648880;
+  border-top: 4px solid #015249;
   float: left;
   padding: 40px 0 22px 0;
 }
@@ -259,7 +263,7 @@ h1, h3, h4, h5, p {
 */
 
 .primary-footer {
-  color: #648880;
+  color: #015249;
   font-size: 14px;
   padding-bottom: 44px;
   padding-top: 44px;
@@ -389,11 +393,11 @@ h1, h3, h4, h5, p {
   ======================================
 */
 
-.venue-theatre {
+.venue {
   margin-bottom: 66px;
 }
 
-.venue-hotel {
+.venue {
   margin-bottom: 22px;
 }
 
