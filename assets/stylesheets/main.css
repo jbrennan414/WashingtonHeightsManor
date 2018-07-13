@@ -187,6 +187,10 @@ p a {
 .col-2-3 {
   width: 66.66%;
 }
+.col-float-right {
+  width: 33.33%;
+  float:right;
+}
 
 /*
   ========================================
@@ -357,13 +361,11 @@ h1, h3, h4, h5, p {
 
 /* 
   ====================================
-  Speakers
+  Services
   ====================================
 */
 
-.speaker-info {
-  border: 1px solid #dfe2e5;
-  border-radius: 5px;
+.services-info {
   margin-top: 88px;
   padding-bottom:: 22px;
   text-align: center;
@@ -380,8 +382,8 @@ h1, h3, h4, h5, p {
   max-width: 100%
 }
 
-.speaker-info img {
-  border-radius:50%;
+.services-info img {
+  border-radius:5%;
   height: 130px;
   margin: -66px 0 22px 0
   vertical-align: top;
@@ -544,6 +546,10 @@ table h4 {
 
 .schedule-offset {
   color: #a9b2b9;
+}
+
+.signature {
+  text-indent: 200px;
 }
 
 
