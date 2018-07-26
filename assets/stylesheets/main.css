@@ -189,7 +189,7 @@ p a {
 }
 .col-float-right {
   width: 33.33%;
-  float:right;
+  float: right;
 }
 
 /*
@@ -391,7 +391,7 @@ h1, h3, h4, h5, p {
 
 /*
   ======================================
-  Venue
+  Locations
   ======================================
 */
 
@@ -405,6 +405,10 @@ h1, h3, h4, h5, p {
 
 .venue-map {
   height: 254px;
+}
+
+.phone {
+  color:black;
 }
 
 /*
@@ -548,9 +552,6 @@ table h4 {
   color: #a9b2b9;
 }
 
-.signature {
-  text-indent: 200px;
-}
 
 
 
