@@ -122,14 +122,13 @@ p a {
 }
 
 .logo {
-  border-top: 4px solid #015249;
-  float: left;
   font-size: 48px;
   font-weight:100px;
   letter-spacing: .5px;
   line-height: 44px;
   padding: 40px 0 22px 0;
   text-transform: uppercase;
+  text-align:center;
 }
 
 .tagline {
@@ -137,7 +136,7 @@ p a {
   text-align: right;
 }
 
-.primary-nav {
+.-nav {
   font-size: 14px;
   font-weight: 400;
   letter-spacing: .5px;
@@ -146,6 +145,7 @@ p a {
 
 .hover {
   color: white;
+
 }
 
 /*
@@ -255,9 +255,15 @@ h1, h3, h4, h5, p {
 */
 
 .logo {
-  border-top: 4px solid #015249;
-  float: left;
   padding: 40px 0 22px 0;
+}
+
+.logo a {
+  justify-content: center;
+}
+
+.primary-header {
+
 }
 
 /*
@@ -307,6 +313,11 @@ h1, h3, h4, h5, p {
 
 .nav {
   text-align: right;
+  font-weight: bold;
+}
+
+.nav li a:hover {
+  border-top: solid 2px #015249
 }
 
 /*
@@ -353,6 +364,7 @@ h1, h3, h4, h5, p {
   display: inline-block;
   margin: 0 10px;
   vertical-align: top;
+  text-transform:uppercase;
 }
 
 .nav li {
@@ -407,7 +419,7 @@ h1, h3, h4, h5, p {
   height: 254px;
 }
 
-.phone {
+.phone a{
   color:black;
 }
 
