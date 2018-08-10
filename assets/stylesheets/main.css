@@ -453,10 +453,21 @@ h1, h3, h4, h5, p {
 .phone {
   color:blue;
   text-decoration: underline;
+  text-indent: 10px;
 }
 
 .phone:hover {
   color:blue;
+}
+
+.email {
+  color:blue;
+  text-decoration: underline;
+}
+
+.email:hover {
+  color:blue;
+  text-decoration: underline;
 }
 
 
@@ -602,9 +613,33 @@ table h4 {
   color: #a9b2b9;
 }
 
+/*
+============================
+Staff
+============================
+*/
 
+.employee h3 {
+  margin-bottom: 0px;
+}
 
+.employee h4 {
+  margin-bottom: 5px;
+  text-indent: 10px;
+}
 
+.employee h5 {
+  margin-bottom: 0px;
+  text-indent: 10px;
+}
+
+.employee {
+  padding: 15px;
+}
+
+.inquiry {
+  text-align: center;
+}
 
 
 
