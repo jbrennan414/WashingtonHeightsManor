@@ -4,20 +4,8 @@ newElement.onclick = function() {
     console.log('clicked');
 };
 
-window.onload = function() {
-    width = window.innerWidth;
-};
-
-window.onload();
-
-if (width <= 600) {
-    console.log('man thats a small screen');
-} else {
-    console.log('WHOA WHAT A BIG SCREEN')
-}
-
 function myFunction() {
-    var x = document.getElementById("myTopnav");
+    var x = document.getElementById("topnav");
     if (x.className === "topnav") {
         x.className += "responsive";
     } else {

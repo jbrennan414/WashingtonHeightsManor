@@ -643,7 +643,6 @@ Staff
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
 }
 
 .topnav a {
@@ -655,13 +654,7 @@ Staff
   font-size: 17px;
 }
 
-.topnav a:hover {
-  background:#ddd;
-  color: black;
-}
-
 .active {
-  background-color: #4CA550;
   color: white;
 }
 
@@ -684,6 +677,7 @@ Staff
     float: none;
     display: block;
     text-align: left;
+    border: 1px solid black;
   }
 }
 
