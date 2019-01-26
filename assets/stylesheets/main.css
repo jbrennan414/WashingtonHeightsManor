@@ -176,7 +176,7 @@ p a {
 .container:not(.topnav), .grid {
 /* .container, .grid { */
   margin: 0 auto;
-  width: 100%;
+  width: 960px;
 }
 .container {
   padding-left: 30px;
